@@ -1,12 +1,12 @@
 ﻿
-model.addSQLCatalog("sugarWakHotel", {
-hostname: 'localhost',
-user: 'root',
-password: 'root',
-database: "sugarcrm",
-port: 3306,
-ssl: false
-});
+//model.addSQLCatalog("sugarWakHotel", {
+//hostname: 'localhost',
+//user: 'root',
+//password: 'root',
+//database: "sugarcrm",
+//port: 3306,
+//ssl: false
+//});
 
 include("./methods/Users/Users-methods.js");
 include("./methods/Users/Users-events.js");
